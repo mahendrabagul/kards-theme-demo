@@ -48,12 +48,12 @@
 					}).animate({
 						Counter: $this.text()
 					}, {
-							duration: 4000,
-							easing: 'swing',
-							step: function (curValue) {
-								$this.text(Math.ceil(curValue));
-							}
-						});
+						duration: 4000,
+						easing: 'swing',
+						step: function (curValue) {
+							$this.text(Math.ceil(curValue));
+						}
+					});
 				});
 			}
 			// trigger once only
